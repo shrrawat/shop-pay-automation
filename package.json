@@ -1,0 +1,17 @@
+{
+  "name": "playwright-cucumber-shop-pay",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run test:report",
+    "test:report": "node run-tests-with-report.js",
+    "report": "npm run test:report",
+    "test:LPOMS-704": "set TEST_CASE_ID=LPOMS-704&& npm test"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.60.0",
+    "cucumber-html-repoter": "^7.2.0",
+    "dotenv": "^16.0.0",
+    "multiple-cucumber-html-reporter": "^3.9.4"
+  }
+}

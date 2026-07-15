@@ -1,0 +1,25 @@
+# Local Node modules (dependencies)
+node_modules/
+
+# Local configuration & environment secrets
+.env
+
+# Playwright execution outputs
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+*-error.png
+debug-gwp-modal-not-closed.png
+
+# Generated Gherkin/Cucumber reports
+reports/
+cucumber_report.json
+cucumber_report.html
+htmlreports/
+
+# IDE-specific configurations & logs
+.vscode/
+.idea/
+*.log
+

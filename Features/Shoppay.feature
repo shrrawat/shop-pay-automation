@@ -100,7 +100,6 @@ Feature: Shop Pay order creation flow for SFCC website
       | sku          | itemType |
       | 197367355413 | std-item |
       | 197367369854 | std-item |
-      | 197367376432 | std-item |
 
     And I proceed to checkout from the mini cart
     Then I should be on the cart page
